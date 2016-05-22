@@ -1,0 +1,3 @@
+- lineinfile: dest=/etc/hosts regexp='^172\.31\.21\.118' line='172.31.21.118 gluster1' owner=root group=root mode=0644
+- lineinfile: dest=/etc/hosts regexp='^172\.31\.24\.97' line='172.31.24.97 gluster0' owner=root group=root mode=0644
+
